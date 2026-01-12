@@ -7,15 +7,20 @@ body { background-color: #f4f4f4; color: #333; line-height: 1.6; }
 header { background: #2c3e50; color: white; padding: 60px 0; }
 
 .banner {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('banner.jpg.png'); /* Adicionei uma camada escura para o texto aparecer melhor */
+    /* O NOME ABAIXO PRECISA SER IGUAL AO ARQUIVO NO GITHUB */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('banner.jpg.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 400px; /* Garante uma altura mínima para a foto aparecer */
-    padding: 100px 20px;
+    min-height: 450px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
     color: white; 
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
 
 .btn-principal {
@@ -30,7 +35,6 @@ header { background: #2c3e50; color: white; padding: 60px 0; }
     transition: 0.3s;
 }
 
-/* Botão Flutuante */
 .whatsapp-fixed {
     position: fixed;
     bottom: 20px;
