@@ -7,7 +7,7 @@ body { background-color: #f4f4f4; color: #333; line-height: 1.6; }
 header { background: #2c3e50; color: white; padding: 60px 0; }
 
 .banner {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Gemini_Generated_Image_al4rrval4rrval4r.png'); /* Adicionei uma camada escura para o texto aparecer melhor */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('banner.jpg.png'); /* Adicionei uma camada escura para o texto aparecer melhor */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
