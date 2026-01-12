@@ -7,7 +7,7 @@ body { background-color: #f4f4f4; color: #333; line-height: 1.6; }
 header { background: #2c3e50; color: white; padding: 60px 0; }
 
 .banner {
-    background-image: url('Parceiro-Ton.jpeg'); /* <--- CONFIRME SE É .PNG OU .JPG */
+    background-image: url('bannerTon1.png'); /* <--- CONFIRME SE É .PNG OU .JPG */
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
